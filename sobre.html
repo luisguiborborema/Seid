@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre Nós - Agência SEID</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
 </head>
 <body>
 
+    <!-- Header | Cabeçalho -->
     <header>
         <nav class="navbar">
-            <a href="index.html" class="logo"><img src="LogoSEID-dourado.png" alt="Logo SEID"></a>
+            <a href="index.html" class="logo"><img src="images/LogoSEID-champanhe.png" alt="Logo SEID"></a>
             <ul class="nav-links">
                 <li><a href="index.html">Início</a></li>
                 <li><a href="sobre.html">Sobre Nós</a></li>
@@ -25,146 +28,154 @@
     </header>
 
     <main class="page-content">
+        <!-- Origem -->
         <section class="history">
-            <h1>Nossa Origem</h1>
-            <p>Pedro Borborema já foi invisível no digital. Tinha bons produtos, mas a percepção do mercado não acompanhava seu valor. Foi nesse momento que começou sua jornada. Errou, ajustou, testou, vendeu. Aplicou tudo nos próprios negócios até ver resultados reais. E quando percebeu que conseguia transformar aquilo em processo e metodologia, entendeu que sua missão era maior: ajudar outras marcas.</p>
-            <p>Foi nesse ponto que se uniu a Samuel Vercillo e Davi Paixão — dois jovens publicitários com experiências complementares. Com Pedro, que domina o audiovisual, posicionamento e branding, a tríade se completa: técnica, criatividade e resultado. Esse foi o início da SEID.</p>
+            <h1 data-aos="slide-down">Nossa Origem</h1>
+            <p data-aos="fade-up" data-aos-delay="100">Pedro Borborema já foi invisível no digital. Tinha bons produtos, mas a percepção do mercado não acompanhava seu valor. Foi nesse momento que começou sua jornada. Errou, ajustou, testou, vendeu. Aplicou tudo nos próprios negócios até ver resultados reais. E quando percebeu que conseguia transformar aquilo em processo e metodologia, entendeu que sua missão era maior: ajudar outras marcas.</p>
+            <p data-aos="fade-up" data-aos-delay="150">Foi nesse ponto que se uniu a Samuel Vercillo e Davi Paixão — dois jovens publicitários com experiências complementares. Com Pedro, que domina o audiovisual, posicionamento e branding, a tríade se completa: técnica, criatividade e resultado. Esse foi o início da SEID.</p>
         </section>
 
-        <section class="mission">
-            <h2>Nossa Missão & Visão</h2>
-            <div class="mission-content">
-                <div class="mission-item">
-                    <h3>Missão</h3>
-                    <p>Transformar o potencial de marcas do mercado imobiliário em resultados mensuráveis, através de um posicionamento que une sofisticação, estratégia e performance.</p>
-                </div>
-                <div class="mission-item">
-                    <h3>Visão</h3>
-                    <p>Ser a agência referência no Brasil em construção de marcas de alto valor para o setor imobiliário, reconhecida pela excelência e impacto nos negócios de nossos clientes.</p>
-                </div>
-            </div>
-        </section>
-
+        <!-- Tríade & Metodologia -->
         <section class="team secao-clara">
-            <h2>A Tríade por Trás da Estratégia</h2>
+            <!-- Tríade -->
+            <h2 data-aos="fade-up">A Tríade por Trás da Estratégia</h2>
             <div class="team-grid">
-                <div class="team-member">
-                    <img src="pedro.jpg" alt="Foto de Pedro Borborema">
+                <div class="team-member" data-aos="fade-up">
+                    <img src="images/pedro.jpg" alt="Foto de Pedro Borborema">
                     <h3>Pedro Borborema</h3>
                     <span class="author-title">CEO - Seid</span>
                     <p>Domina o audiovisual, posicionamento e branding. Transforma identidade em desejo e resultado.</p>
                 </div>
-                <div class="team-member">
-                    <img src="samuel.jpg" alt="Foto de Samuel Vercillo">
+                <div class="team-member" data-aos="fade-up" data-aos-delay="100">
+                    <img src="images/samuel.jpg" alt="Foto de Samuel Vercillo">
                     <h3>Samuel Vercillo</h3>
                     <span class="author-title">CMO - Seid</span>
                     <p>Especialista em construir narrativas que vendem, copywriting estratégico e identidade visual que traduz a essência.</p>
                 </div>
-                <div class="team-member">
-                    <img src="davi.jpg" alt="Foto de Davi Paixão">
+                <div class="team-member" data-aos="fade-up" data-aos-delay="200">
+                    <img src="images/davi.jpg" alt="Foto de Davi Paixão">
                     <h3>Davi Paixão</h3>
                     <span class="author-title">CMO - Seid</span>
                     <p>Entende profundamente de tráfego pago e escalabilidade. Tem olhar técnico e visão de performance.</p>
                 </div>
             </div>
-        </section>
-        
-        <section class="methodology secao-clara fade-in-section">
 
-            <h2>Nossa Metodologia</h2> 
-            
+            <!-- Metodologia -->
+            <h2 data-aos="fade-up">Nossa Metodologia</h2> 
             <div class="methodology-grid">
-                <div class="method-step">
+                <div class="method-step" data-aos="fade-up" data-aos-delay="100">
                     <i class="fa-solid fa-magnifying-glass-chart"></i> <h3>Imersão e Diagnóstico</h3>
                     <p>Mergulhamos no seu negócio para entender profundamente sua identidade, seu público e seus desafios únicos.</p>
                 </div>
-                <div class="method-step">
+                <div class="method-step" data-aos="fade-up" data-aos-delay="150">
                     <i class="fa-solid fa-sitemap"></i> <h3>Construção Estratégica</h3>
                     <p>Definimos o posicionamento, a identidade visual e a narrativa que irão conectar sua marca ao cliente ideal.</p>
                 </div>
-                <div class="method-step">
+                <div class="method-step" data-aos="fade-up" data-aos-delay="200">
                     <i class="fa-solid fa-rocket"></i> <h3>Execução e Performance</h3>
                     <p>Ativamos sua marca nos canais certos com foco total em performance, otimizando para gerar resultados reais.</p>
                 </div>
             </div>
         </section>
-        
-        <section class="values">
-            <h2>Nossos Valores</h2>
+
+        <!-- Missão, Visão & Propósito + Valores -->
+        <section class="mission">
+            <h1 data-aos="fade-up">Nossa Missão, Visão & Propósito</h1>
+
+            <div class="mission-grid">
+                <div class="mission-item" data-aos="fade-up">
+                    <h3 data-aos="fade-up" data-aos-delay="100">Missão</h3>
+                    <p>Transformar o potencial de marcas do mercado imobiliário em resultados mensuráveis, através de um posicionamento que une sofisticação, estratégia e performance.</p>
+                </div>
+                
+                <div class="mission-item" data-aos="fade-up">
+                    <h3 data-aos="fade-up" data-aos-delay="150">Visão</h3>
+                    <p>Ser a agência referência no Brasil em construção de marcas de alto valor para o setor imobiliário, reconhecida pela excelência e impacto nos negócios de nossos clientes.</p>
+                </div>
+                
+                <div class="mission-item" data-aos="fade-up">
+                    <h3 data-aos="fade-up" data-aos-delay="200">Propósito</h3>
+                    <p>Fazer com que nossos clientes se destaquem com autenticidade, vendam mais e atraiam um público que se identifica com quem eles realmente são.</p>
+                    <p>Ajudamos a transformar identidade em posicionamento, posicionamento em desejo — e desejo em resultado.</p>    
+                </div>
+            </div>
             
+            <!-- Valores -->
+            <h2 data-aos="fade-up">Nossos Valores</h2>
             <div class="values-grid">
-                <div class="value-item">
+                <div class="value-item" data-aos="zoom-in" data-aos-delay="100">
                     <h3>Excelência</h3>
                     <p>Entregamos com atenção aos detalhes, consistência de qualidade e busca contínua pela melhoria. Cada material carrega o nosso padrão técnico e estético.</p>
                 </div>
-                <div class="value-item">
+                <div class="value-item" data-aos="zoom-in" data-aos-delay="150">
                     <h3>Sofisticação</h3>
                     <p>Nossa assinatura está presente na estética refinada, na clareza da comunicação e nas estratégias que elevam a percepção de valor da marca do cliente.</p>
                 </div>
-                <div class="value-item">
+                <div class="value-item" data-aos="zoom-in" data-aos-delay="200"> 
                     <h3>Personalização</h3>
                     <p>Aprofundamos na identidade de cada cliente para criar soluções únicas. Nada aqui é genérico — cada projeto é construído a partir da essência, história e diferenciais reais de quem atendemos.</p>
                 </div>
-                <div class="value-item">
+                <div class="value-item" data-aos="zoom-in" data-aos-delay="250">
                     <h3>Parceria</h3>
                     <p>Acreditamos em relações de confiança, proximidade e colaboração. Mais do que prestadores de serviço, somos aliados estratégicos na jornada do cliente.</p>
                 </div>
-                <div class="value-item">
+                <div class="value-item" data-aos="zoom-in" data-aos-delay="300">
                     <h3>Resultado</h3>
                     <p>Todo esforço é orientado para gerar impacto real no negócio: mais percepção de valor, mais autoridade, mais vendas e crescimento sustentável.</p>
                 </div>
-            </div>
-
-            <div class="purpose-statement">
-                <h3>Nosso Propósito</h3>
-                <p>Fazer com que nossos clientes se destaquem com autenticidade, vendam mais e atraiam um público que se identifica com quem eles realmente são.</p>
-                <p>Ajudamos a transformar identidade em posicionamento, posicionamento em desejo — e desejo em resultado.</p>
-            </div>
+            </div> 
         </section>
 
+        <!-- Cases -->
         <section class="testimonials">
-            <h2>Depoimentos que Nos Orgulham</h2>
+            <h2  data-aos="fade-up">Nossos Cases</h2>
             <div class="testimonial-grid">
-                <div class="testimonial-card">
-                    <img src="images/cliente-placeholder.png" alt="Foto de um cliente satisfeito" class="testimonial-avatar">
+                <!-- 1° Case -->
+                <div class="testimonial-card" data-aos="fade-up">
+                    <img src="images/pedro.jpg" alt="Foto de um cliente satisfeito" class="testimonial-avatar">
                     <p class="testimonial-quote">"A parceria com a SEID foi um divisor de águas. Eles não apenas entenderam nossa essência, mas a traduziram em uma marca forte que gera negócios diariamente."</p>
                     <div class="testimonial-author">
-                        <span class="author-name">Gláuria Moreira</span>
+                        <span class="author-name">Pep Kite</span>
                         <span class="author-title">Corretora Alto Padrão</span>
                     </div>
                 </div>
-                <div class="testimonial-card">
-                    <img src="images/cliente-placeholder.png" alt="Foto de um cliente satisfeito" class="testimonial-avatar">
+                
+                <!-- 2° Case -->
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                    <img src="images/davi.jpg" alt="Foto de um cliente satisfeito" class="testimonial-avatar">
                     <p class="testimonial-quote">"A parceria com a SEID foi um divisor de águas. Eles não apenas entenderam nossa essência, mas a traduziram em uma marca forte que gera negócios diariamente."</p>
                     <div class="testimonial-author">
-                        <span class="author-name">Guilherme Borborema</span>
-                        <span class="author-title">CEO, BMR Real State</span>
+                        <span class="author-name">David Brazil </span>
+                        <span class="author-title">CEO, BRC Real State</span>
                     </div>
                 </div>
-                <div class="testimonial-card">
-                    <img src="images/cliente-placeholder.png" alt="Foto de um cliente satisfeito" class="testimonial-avatar">
+                
+                <!-- 3° Case -->
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="150">
+                    <img src="images/samuel.jpg" alt="Foto de um cliente satisfeito" class="testimonial-avatar">
                     <p class="testimonial-quote">"A parceria com a SEID foi um divisor de águas. Eles não apenas entenderam nossa essência, mas a traduziram em uma marca forte que gera negócios diariamente."</p>
                     <div class="testimonial-author">
-                        <span class="author-name">Bruno Flávio</span>
-                        <span class="author-title">CMO, Imobiliária Real</span>
+                        <span class="author-name">Sam Jackson</span>
+                        <span class="author-title">Corretor Imobiliária Leal</span>
                     </div>
                 </div>
-                </div>
+            </div>
         </section>
 
+        <!-- CTA Final -->
         <section class="cta-final">
-            <h2>Pronto para construir uma marca de impacto?</h2>
-            <p>Vamos conversar sobre como a metodologia SEID pode transformar a percepção e os resultados do seu negócio.</p>
-            <a href="contato.html" class="cta-button">Fale com um Especialista</a>
+            <h2 data-aos="fade-up">Pronto para construir uma marca de impacto?</h2>
+            <p data-aos="fade-up" data-aos-delay="100">Vamos conversar sobre como a metodologia SEID pode transformar a percepção e os resultados do seu negócio.</p>
+            <a href="contato.html" class="cta-button-final" data-aos="flip-up" data-aos-delay="250">Fale com um Especialista</a>
         </section>
-
     </main>
 
+    <!-- Footer | Rodapé -->
     <footer class="main-footer">
         <div class="footer-content">
             <div class="footer-column footer-about">
                 <div class="footer-logo">
-                    <img src="LogoSEID-dourado.png" alt="Logo da Seid" class="footer-logo-img">
+                    <img src="images/LogoSEID-champanhe.png" alt="Logo da Seid" class="footer-logo-img">
                     </div>
                 <p>Impulsionamos marcas imobiliárias com posicionamento estratégico, transformando identidade em vendas reais e consistentes.</p>
             </div>
@@ -196,6 +207,10 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
